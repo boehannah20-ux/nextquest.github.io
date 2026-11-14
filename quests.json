@@ -1,6 +1,18 @@
 {
     "quests":[
         {
+            "title": "Stop the thieves!", "uuid": "fa3b7c65-6431-4414-ad43-a751d187b921",
+            "level": "3", "type": "investigation", "requester": "F & F Frowshief",
+            "description": "We humbly request the presence of someone to investigate a spate of thefts at our store. If you find this an acceptable rate, please come to Frowshief's Fineries in Kalligsby North",
+            "rewards": ["35gp", "Couture Outfit"]
+        },
+        {
+            "title": "Missing person", "uuid": "b02c726c-2854-4a07-aa27-6d0f9bc4b9fb",
+            "level": "5", "type": "rescue", "requester": "Dame Thuma Durash",
+            "description": "My son Skeg took a job at that new bakery Iced Delights and now he's gone missing. I just know that that Vera has something to do with it! Come to my home on ",
+            "rewards": ["50gc", "A Handwritten Commendation"]
+        },
+        {
             "title": "Save my cat please", "uuid": "ed366228-5d71-4c5f-8daa-7929eed6c5ab",
             "level": "1", "type": "rescue", "requester": "Vera the Cat Lady",
             "description": "One of my cats is stuck in a tree that got up and ran away",
@@ -17,12 +29,6 @@
             "level": "1", "type": "fetch", "requester": "Thaesiagnutz",
             "description": "I'm suffering from writer's block and I need to look at a beautiful flower from the Forest of Woe",
             "rewards": ["40gc"]
-        },
-        {
-            "title": "Shopping trip", "uuid": "12a9c19f-bc50-4553-b243-199580686b5f",
-            "level": "1", "type": "rescue", "requester": "Ilthridish",
-            "description": "Hey I really need some help here. My friend Chet is mad at me and I need help finding him a nice gift",
-            "rewards": ["20gc", "A set of silverware"]
         },
         {
             "title": "Quest", "uuid": "401f6f49-e209-4687-b620-ba7ed1159c5d",
