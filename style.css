@@ -58,7 +58,8 @@ background-color: var(--midnight-violet)
 /* The state of the div when it is expanded */
 .quest.expanded {
 
-  max-height: 250px; /* Set this high enough to fit your content */
+  height: auto;
+  min-height: 200px;
 
 }
 
