@@ -14,8 +14,9 @@
 
 body {
 
-background-color: var(--shadow-grey)
-
+/*
+  background-color: var(--shadow-grey)
+*/
 }
 
 .red_hat_display {
@@ -26,7 +27,9 @@ background-color: var(--shadow-grey)
 }
 
 .quest {
+  /*
   background-color: var(--shadow-grey);
+  */
   font-family: Arial, Helvetica, sans-serif;
   border-radius: 8px;
   padding: 15px;
@@ -38,8 +41,9 @@ background-color: var(--shadow-grey)
   
   cursor: pointer;
   overflow: hidden; /* Keeps the extra content hidden initially */
+  /*
   color: var(--frozen-water);
-  
+  */
   max-height: 100px; 
 
   transition: max-height 0.4s ease-in-out, background-color 0.3s ease;
