@@ -60,7 +60,10 @@ body {
   display: flex;
   align-items: flex-end;
   padding: 6px;
+  /*
   color: var(--frozen-water);
+  */
+  
   max-height: 50px;
   height: 100%;
   gap: 6px;
