@@ -41,6 +41,11 @@ background-color: var(--shadow-grey)
   box-shadow: 0 10px 20px var(--frozen-water);
   */
   
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
   cursor: pointer;
   overflow: hidden; /* Keeps the extra content hidden initially */
   color: var(--frozen-water);

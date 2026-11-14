@@ -16,7 +16,7 @@ async function loadQuests() {
         const listContainer = document.getElementById('quest-list');
 
         let questMap = data.quests.map(quest => `
-            <div class="quest red-hat-display" uuid="${quest.uuid}">
+            <div class="quest" uuid="${quest.uuid}">
                 <div class="quest-header">
                     <img src="pfp.png" alt="Widget Image" class="quest-img">
                     <p><strong>Requester: </strong> ${quest.requester}<br>
