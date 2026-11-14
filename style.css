@@ -27,6 +27,8 @@ background-color: var(--shadow-grey)
 
 .quest {
 
+  font-family: "Red Hat Display", sans-serif;
+
   background-color: var(--shadow-grey);
   border-radius: 8px;
   padding: 1.5rem;
