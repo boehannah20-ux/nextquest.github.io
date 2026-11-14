@@ -23,9 +23,8 @@ async function loadQuests() {
                     <strong>Level: </strong> ${quest.level}</p>
                 </div>
                     <h3>${quest.title}</h3>
-                    <h2>Description:</h2>
                     <p>${quest.description}</p>
-                    <h2>Reward/s:</h2>
+                    <h4>Reward/s:</h4>
                     <p>${quest.rewards}</p>
             </div>
                 `).join('');
