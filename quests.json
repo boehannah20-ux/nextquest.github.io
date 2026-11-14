@@ -1,0 +1,34 @@
+{
+    "quests":[
+        {
+            "title": "Save my cat please", "uuid": "ed366228-5d71-4c5f-8daa-7929eed6c5ab",
+            "level": "1", "type": "rescue", "requester": "Vera the Cat Lady",
+            "description": "One of my cats is stuck in a tree that got up and ran away",
+            "rewards": ["20gc", "Potion of Healing", "Scroll of Comprehend Languages"]
+        },
+        {
+            "title": "Deal with those hooligans", "uuid": "71393799-1a6c-4a30-884c-df0bcbabc186",
+            "level": "1", "type": "protection", "requester": "Horrin the Shopkeep",
+            "description": "Those rascally goblins keep tagging my walls with filthy language. I need to get rid of them.",
+            "rewards": ["10gc", "Shield + 1", "Potion of Waterbreathing"]
+        },
+        {
+            "title": "Pick a flower for me", "uuid": "fda7984d-38e5-4f1c-b103-e111b59f966e",
+            "level": "1", "type": "fetch", "requester": "Thaesiagnutz",
+            "description": "I'm suffering from writer's block and I need to look at a beautiful flower from the Forest of Woe",
+            "rewards": ["40gc"]
+        },
+        {
+            "title": "Shopping trip", "uuid": "12a9c19f-bc50-4553-b243-199580686b5f",
+            "level": "1", "type": "rescue", "requester": "Ilthridish",
+            "description": "Hey I really need some help here. My friend Chet is mad at me and I need help finding him a nice gift",
+            "rewards": ["20gc", "A set of silverware"]
+        },
+        {
+            "title": "Quest", "uuid": "401f6f49-e209-4687-b620-ba7ed1159c5d",
+            "level": "1", "type": "rescue", "requester": "Radish",
+            "description": "Hey I really need some help here. My friend Chet is mad at me and I need help finding him a nice gift",
+            "rewards":["10gc", "Potion of Healing", "Potion of Healing"]
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+
+
+:root{
+
+  /* CSS HSL */
+  --slate-grey: hsla(219, 8%, 53%, 1);
+  --metallic-gold: hsla(46, 51%, 56%, 1);
+  --frozen-water: hsla(166, 74%, 91%, 1);
+  --scarlet-fire: hsla(10, 97%, 49%, 1);
+  --midnight-violet: hsla(261, 89%, 7%, 1);
+  --shadow-grey: hsla(0, 0%, 15%, .9);
+
+}
+
+body {
+
+background-color: var(--shadow-grey)
+
+}
+
+.red_hat_display {
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.quest {
+  background-color: var(--shadow-grey);
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 8px;
+  padding: 15px;
+  width: auto;
+  border: 2px solid var(--slate-grey);
+  /*
+  box-shadow: 0 10px 20px var(--frozen-water);
+  */
+  
+  cursor: pointer;
+  overflow: hidden; /* Keeps the extra content hidden initially */
+  color: var(--frozen-water);
+  
+  max-height: 100px; 
+
+  transition: max-height 0.4s ease-in-out, background-color 0.3s ease;
+}
+
+/* The state of the div when it is expanded */
+.quest.expanded {
+
+  max-height: 200px; /* Set this high enough to fit your content */
+
+}
+
+.quest-header {
+  display: flex;
+  align-items: flex-end;
+  padding: 6px;
+  color: var(--frozen-water);
+  max-height: 50px;
+  height: 100%;
+  gap: 6px;
+  font-size: 11px
+}
+
+.quest-img {
+  max-width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+
+.quest-text-column {
+  align-self:last baseline;
+  border: 1px solid var(--slate-grey);
+  font-size: 11px
+}
+/*
+.requester-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 12px;
+  gap: 2px;
+  margin:0;
+  flex: 0 1 100%
+}
+
+.level-row {
+  display: flex;
+  margin: 0;
+  flex-direction: row;
+  align-items: center;
+  font-size: 12px;
+  gap: 2px;
+}
+*/
