@@ -27,13 +27,11 @@ background-color: var(--shadow-grey)
 
 .quest {
 
-  font-family: "Red Hat Display", sans-serif;
-
   background-color: var(--shadow-grey);
   border-radius: 8px;
   padding: 1.5rem;
     
-  margin: 2rem auto;
+  margin: 1rem auto;
 
   width: calc(100% - 2rem);
   max-width: 600px;
