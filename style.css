@@ -14,7 +14,7 @@
 
 body {
 
-background-color: var(--midnight-violet)
+background-color: var(--shadow-grey)
 
 }
 
@@ -27,7 +27,7 @@ background-color: var(--midnight-violet)
 
 .quest {
 
-  background-color: var(--shadow-grey);
+  background-color: var(--slate-grey);
   border-radius: 8px;
   padding: 1.5rem;
     
