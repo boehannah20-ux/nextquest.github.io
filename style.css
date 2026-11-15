@@ -33,7 +33,7 @@ background-color: var(--shadow-grey)
     
   margin: 1rem auto;
 
-  width: calc(100% - 2rem);
+  width: calc(100% - 1rem);
   max-width: 600px;
 
   border: 2px solid var(--slate-grey);
