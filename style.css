@@ -59,6 +59,7 @@ background-color: var(--shadow-grey)
 .quest.expanded {
 
   height: auto;
+  max-height: 600px;
 
 }
 
