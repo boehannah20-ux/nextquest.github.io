@@ -9,7 +9,7 @@
         {
             "title": "Missing person", "uuid": "b02c726c-2854-4a07-aa27-6d0f9bc4b9fb",
             "level": "5", "type": "rescue", "requester": "Dame Thuma Durash",
-            "description": "My son Skeg took a job at that new bakery Iced Delights and now he's gone missing. I just know that that Vera has something to do with it! Come to my home on ",
+            "description": "My son Skeg took a job at that new bakery Iced Delights and now he's gone missing. I just know that that Vera has something to do with it! Come to my home on Georgius Avenue in Mount ",
             "rewards": ["50gc", "A Handwritten Commendation"]
         },
         {
@@ -32,7 +32,7 @@
         },
         {
             "title": "Quest", "uuid": "401f6f49-e209-4687-b620-ba7ed1159c5d",
-            "level": "1", "type": "rescue", "requester": "Radish",
+            "level": "1", "type": "rescue", "requester": "Ilthridish",
             "description": "Hey I really need some help here. My friend Chet is mad at me and I need help finding him a nice gift",
             "rewards":["10gc", "Potion of Healing", "Potion of Healing"]
         }

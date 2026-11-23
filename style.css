@@ -14,7 +14,7 @@
 
 body {
 
-background-color: var(--shadow-grey)
+background-color: var(--frozen-water)
 
 }
 
@@ -27,7 +27,7 @@ background-color: var(--shadow-grey)
 
 .quest {
 
-  background-color: var(--shadow-grey);
+  background-color: var(--frozen-water);
   border-radius: 8px;
   padding: 1.5rem;
     
@@ -48,7 +48,7 @@ background-color: var(--shadow-grey)
 
   cursor: pointer;
   overflow: hidden; /* Keeps the extra content hidden initially */
-  color: var(--frozen-water);
+  color: var(--shadow-grey);
   
   max-height: 100px; 
 
@@ -67,7 +67,7 @@ background-color: var(--shadow-grey)
   display: flex;
   align-items: flex-end;
   padding: 6px;
-  color: var(--frozen-water);
+  color: var(--shadow-grey);
   max-height: 50px;
   height: 100%;
   gap: 6px;
