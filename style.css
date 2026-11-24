@@ -32,13 +32,13 @@ body {
     
   margin: 1rem auto;
 
-  width: 100%;
+  width: 95%;
   max-width: 600px;
 
-  border: 2px solid black;
-  /*
+  border: 1px solid black;
+  
   box-shadow: 0 10px 20px var(--frozen-water);
-  */
+  
   
   font-family: "Red Hat Display", sans-serif;
   font-optical-sizing: auto;
