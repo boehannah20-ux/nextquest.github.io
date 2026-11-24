@@ -2,19 +2,18 @@
 
 :root{
 
-  /* CSS HSL */
+  /* CSS HSL 
   --slate-grey: hsla(219, 8%, 53%, 1);
   --metallic-gold: hsla(46, 51%, 56%, 1);
   --frozen-water: hsla(166, 74%, 91%, 1);
   --scarlet-fire: hsla(10, 97%, 49%, 1);
   --midnight-violet: hsla(261, 89%, 7%, 1);
   --shadow-grey: hsla(0, 0%, 15%, .9);
+  */
 
 }
 
 body {
-
-background-color: var(--frozen-water)
 
 }
 
@@ -27,7 +26,6 @@ background-color: var(--frozen-water)
 
 .quest {
 
-  background-color: var(--frozen-water);
   border-radius: 8px;
   padding: 1.5rem;
     
@@ -36,7 +34,7 @@ background-color: var(--frozen-water)
   width: calc(100% - 1rem);
   max-width: 600px;
 
-  border: 2px solid var(--slate-grey);
+  border: 2px solid black;
   /*
   box-shadow: 0 10px 20px var(--frozen-water);
   */
@@ -48,7 +46,6 @@ background-color: var(--frozen-water)
 
   cursor: pointer;
   overflow: hidden; /* Keeps the extra content hidden initially */
-  color: var(--shadow-grey);
   
   max-height: 100px; 
 
@@ -67,7 +64,6 @@ background-color: var(--frozen-water)
   display: flex;
   align-items: flex-end;
   padding: 6px;
-  color: var(--shadow-grey);
   max-height: 50px;
   height: 100%;
   gap: 6px;
@@ -83,7 +79,7 @@ background-color: var(--frozen-water)
 
 .quest-text-column {
   align-self:last baseline;
-  border: 1px solid var(--slate-grey);
+  border: 1px solid black;
   font-size: 11px
 }
 /*
