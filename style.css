@@ -63,10 +63,10 @@ body {
 .quest-header {
   display: flex;
   align-items: flex-end;
-  padding: 6px;
+  padding: 2px;
   max-height: 50px;
   height: 100%;
-  gap: 6px;
+  gap: 6px 3px;
   font-size: 11px
 }
 
