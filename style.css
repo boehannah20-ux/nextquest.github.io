@@ -1,21 +1,22 @@
-
-
+ 
 :root{
-
-  /* CSS HSL 
+ 
   --slate-grey: hsla(219, 8%, 53%, 1);
   --metallic-gold: hsla(46, 51%, 56%, 1);
   --frozen-water: hsla(166, 74%, 91%, 1);
   --scarlet-fire: hsla(10, 97%, 49%, 1);
   --midnight-violet: hsla(261, 89%, 7%, 1);
   --shadow-grey: hsla(0, 0%, 15%, .9);
-  */
+
 
 }
 
+/*
 body {
 
 }
+
+ */
 
 .red_hat_display {
   font-family: "Red Hat Display", sans-serif;
@@ -71,8 +72,8 @@ body {
 }
 
 .quest-img {
-  max-width: 50px;
-  height: 50px;
+  max-width: 128px;
+  max-height: 128px;
   object-fit: cover;
 }
 
