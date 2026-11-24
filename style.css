@@ -72,8 +72,8 @@ body {
 }
 
 .quest-img {
-  max-width: 128px;
-  max-height: 128px;
+  max-width: 64px;
+  max-height: 64px;
   object-fit: cover;
 }
 
