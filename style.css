@@ -85,6 +85,11 @@ body {
 
 .toolbar {
   
+  position: sticky;
+  
+  top: 0;
+  z-index: 100;
+
   display: flex;
   align-items: flex-end;
   max-height: 50px;
