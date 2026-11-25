@@ -85,6 +85,10 @@ body {
 
 .toolbar {
   
+  display: flex;
+  align-items: flex-end;
+  max-height: 50px;
+
   border: 1px var(--slate-grey);
   
   font-family: "Red Hat Display", sans-serif;
