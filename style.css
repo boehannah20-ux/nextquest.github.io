@@ -94,7 +94,13 @@ body {
   align-items: flex-end;
   max-height: 50px;
 
+  border-radius: 8px;
+
+  padding: 1.5rem;
+
   border: 2px solid var(--slate-grey);
+
+  background-color: white;
   
   font-family: "Red Hat Display", sans-serif;
   font-optical-sizing: auto;
