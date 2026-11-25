@@ -94,7 +94,7 @@ body {
   align-items: flex-end;
   max-height: 50px;
 
-  border: 1px var(--slate-grey);
+  border: 2px solid var(--slate-grey);
   
   font-family: "Red Hat Display", sans-serif;
   font-optical-sizing: auto;
